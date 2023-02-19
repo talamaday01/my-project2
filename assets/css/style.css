@@ -18,6 +18,13 @@ body {
 
 /* Common */
 
+.heading.lv3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #171100;
+}
+
 .heading.lv2 {
     font-weight: 700;
     font-size: 3.8rem;
@@ -37,7 +44,7 @@ body {
     padding: 0 16px;
     line-height: 50px;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #ffffff;
     background: #171100;
@@ -114,6 +121,7 @@ a {
 
 .header .sign-up-btn {
     min-width: 144px;
+    font-size: 1.6rem;
 }
 /* Hero */
 
@@ -316,4 +324,74 @@ a {
     background: var(--primary-color);
     color: #fff;
     cursor: pointer;
+}
+
+.popular-body {
+    margin-top: 55px;
+}
+
+/* Popular body */
+
+.popular-body {
+    display: flex;
+    gap: 0 30px;
+}
+
+.popular-body .item {
+    width: calc(100% / 3);
+    border: 1px solid #e2dfda;
+    border-radius: 12px;
+}
+
+.popular-body .item:hover {
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    border: 1px solid transparent;
+}
+
+.popular-body .item .thumb {
+    margin: -0.5px;
+    width: calc(100% + 1px);
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.popular-body .info {
+    padding: 16px 22px 22px;
+}
+
+.popular-body .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-body .row .btn:hover {
+    background-color: var(--primary-color);
+}
+
+.popular-body .stars {
+    display: flex;
+    align-items: center;
+}
+
+.popular-body .row .qty {
+    margin-left: 6px;
+    color: var(--primary-color);
+}
+
+.popular-body .info .desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.popular-body .info .deal {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #171100;
 }
