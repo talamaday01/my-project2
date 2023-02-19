@@ -20,7 +20,7 @@ body {
 
 .heading.lv3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.67;
     color: #171100;
 }
@@ -299,7 +299,7 @@ a {
 .popular-top .desc {
     width: 458px;
     margin-top: 16px;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.67;
     color: #5f5b53;
 }
@@ -385,14 +385,82 @@ a {
 .popular-body .info .desc {
     margin-top: 6px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.86;
     color: #5f5b53;
 }
 
 .popular-body .info .deal {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.67;
     color: #171100;
+}
+/* Feedback */
+.feedback {
+    margin-top: 135px;
+    background: #2e2100;
+}
+
+.feedback .body {
+    display: flex;
+    padding: 96px 0;
+}
+
+.feedback-left {
+    width: 34%;
+}
+
+.feedback-left .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback-left .title {
+    font-family: var(--font-heading);
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.24;
+    color: #f7f7f7;
+}
+
+.feedback-left .desc {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #bfbcb3;
+}
+
+.feedback-left .doots {
+    margin-top: 28px;
+    display: flex;
+    gap: 0 6px;
+}
+
+.feedback-left .doot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.feedback-left .doot.active {
+    background: var(--primary-color);
+}
+
+.feedback-right {
+    width: 66%;
+}
+
+.feedback-right .desc {
+    font-style: italic;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
 }
